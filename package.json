@@ -6,7 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "release": "release-it -VV — ci — no-git.requireUpstream",
+    "sonar": "node sonar-project.js",
+    "patch": "release-it patch --ci",
+    "minor": "release-it minor --ci",
+    "major": "release-it major --ci"
   },
   "dependencies": {
     "@types/node": "20.2.5",
