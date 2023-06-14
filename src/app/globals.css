@@ -17,11 +17,7 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: rgb(85, 81, 81);
+  /* background: linear-gradient(to bottom, #000000e6, rgba(255, 255, 255, 0.87)); */
+  background-image: url(/images/ogOdyeuZ.png); 
 }
